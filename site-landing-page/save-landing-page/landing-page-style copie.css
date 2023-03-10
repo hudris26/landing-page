@@ -1,0 +1,415 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: normal;
+
+  }
+/* html{
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+/* ------------------header------------------ */
+
+
+
+  .menu-container {
+    display: flex;
+    justify-content: left;
+    color: rgb(255, 255, 255);
+    background-color: rgb(221, 85, 85);  /* rouge */
+    height: 52px;
+    font-family: "Open Sans", sans-serif; 
+    font-size: 14px;
+  }
+  
+    .menu {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; 
+      width: 500px;
+      margin-left: 131px;
+      list-style-type: none;    
+
+  }
+
+    .logo {
+        margin-right: 20px;
+    }
+
+    .logo, .first-tab, .second-tab, .third-tab, .fourth-tab {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .first-tab:hover, .second-tab:hover, .third-tab:hover, .fourth-tab:hover {
+        background-color: rgb(154, 71, 67);
+        opacity: 1;
+        cursor: pointer;
+    }
+
+
+
+/* ------------------main------------------- */
+
+    /* first-space */
+
+    .first-picture{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url('component.png');
+        background-size: cover;
+        height: 700px;
+        color: #fff;
+    }
+
+    .super-app{  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Open Sans-bold", sans-serif; 
+        font-size: 48px;
+        height: 65px;
+        width: 300px;
+    }
+
+    .slogan{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Open Sans", sans-serif;
+        font-size: 24px;
+        height: 70px;
+        width: 284px;
+    }
+
+    .first-buttons{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 500px;
+        border-top: 1px solid #fff;
+    }
+
+    .like-it-button{
+        font-family: "Open Sans", sans-serif;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 130px;
+        height: 46px;
+        border-radius: 5px;
+        background-color: #fff;
+        color: black;
+        margin: 20px;
+        margin-left: 0px;
+    }
+
+    .love-it-button{
+        font-family: "Open Sans", sans-serif;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 130px;
+        height: 46px;
+        border-radius: 5px;
+        background-color: #fff;
+        color: black;
+        margin: 20px;
+    }
+
+    .buy-it-button{
+        font-family: "Open Sans", sans-serif;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 130px;
+        height: 46px;
+        border-radius: 5px;
+        background-color: #fff;
+        color: black;
+        margin: 20px;
+        margin-right: 0px;
+    }
+
+    .like-it-button:hover, .love-it-button:hover, .buy-it-button:hover {
+        background-color: rgb(200, 200, 200);
+        opacity: 1;
+        cursor: pointer;
+    }
+
+    /* second-space */
+
+
+    .second-space{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .elle-fait-des-trucs-super {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Open Sans-Semibold", sans-serif; 
+        font-size: 36px;
+        height: 100px;
+        width: 600px;
+        margin: 52px;
+    }
+
+    .first-line-fonctions {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .second-line-fonctions {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .fonction {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+    }
+
+    .logo-second-space {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #DD5555;
+        border-radius: 50%;
+        height: 120px;
+        width: 120px;
+        image-resolution: 70px, 65px;
+    }
+
+    .tilte {
+        font-family: "Open Sans-Semibold", sans-serif;
+        margin: 10px;
+    }
+
+    .text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Open Sans", sans-serif;
+        text-align: center;
+        font-size: 16px;
+        width: 358px;
+    }
+
+
+
+/* ----------------third-space---------------- */
+
+
+
+    .third-space-picture{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url('/Users/mac/Desktop/code/dossier sans titre.html/site-landing-page/third-place/third-place-picture.png');
+        background-size: cover;
+        height: 240px;
+        color: #fff;
+    }
+
+    .super-team{  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Open Sans-bold", sans-serif; 
+        font-size: 48px;
+    }
+
+
+
+
+/* ---------------fourth-space---------------- */
+
+
+
+.fourth-space{
+    display: flex;    
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 180px;
+    margin: 20px;
+}
+
+.dude {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.picture-dude > img {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+}
+
+.button-mail{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 55%;
+    height: 40px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #DD5555;
+    color: white;
+}
+
+.tex-talign, .marge-inn, .isaac-newton, .ash-tehemel {
+    font-family: "Open sans-Semibold", sans-serif;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+
+
+/* ---------------fifth-space---------------- */
+
+
+
+.fifth-space {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #DD5555;
+    color: #fff;
+}
+
+.envoyez-nous-un-message {
+    font-family: "Open sans-Semibold", sans-serif;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 51px;
+    margin-bottom: 35px;
+}
+
+.coordonnées {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Open sans", sans-serif;
+    width: 70%;
+}
+
+.message {
+    display: flex;
+    justify-self: left;
+    font-family: "Open sans", sans-serif;    margin-left: 5px;
+    margin-right: 5px;
+    width: 70%;
+}
+
+.form-coordon {
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+  }
+  
+  .form-coordon input[type="text"] {
+    height: 32px;
+    background-color: #FFFFFF;
+    border: 0px;
+    border-radius : 2px;
+    width : 100%;
+    padding: 7px;
+    font-size: 14px;
+  }
+  
+  .form-coordon label {
+    margin-bottom: 5px;
+  }
+
+  .form-message {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 100%;
+  }
+  
+  .form-message input[type="text"] {
+    height: 132px;
+    width: 738px;
+    background-color: #FFFFFF;
+    border: 0px;
+    border-radius : 2px;
+    width : 100%;
+    padding: 7px;
+    font-size: 14px;
+  }
+  
+  .form-message label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+
+  .form-send-button {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 5px;
+    margin-bottom: 64px;
+    margin-top: 15px;
+    height: 46px;
+    width: 70%;
+    font-family: "Open Sans", sans-serif;
+    border: 0px;
+    border-radius : 2px;
+    font-size: 14px;
+  }
+
+  .bouton-envoyer-fin{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 12%;
+    border: 0;
+    border-radius: 2px;
+    padding: 5px 10px;
+  }
+
+  .bouton-envoyer-fin:hover{
+    background-color: rgb(200, 200, 200);
+    opacity: 1;
+    cursor: pointer;
+}
+
+    /* --------------footer--------------- */
+
